@@ -1,0 +1,14 @@
+{
+    "name": "samcleathero/module-configurable-wizard",
+    "description": "Fork of ThankIT_ConfigurableWizard module",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "autoload": {
+        "files": [
+            "src/registration.php"
+        ],
+        "psr-4": {
+            "ThankIT\\ConfigurableWizard\\": "src/"
+        }
+    }
+}
